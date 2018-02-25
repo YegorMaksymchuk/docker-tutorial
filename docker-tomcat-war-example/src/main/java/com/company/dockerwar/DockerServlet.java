@@ -13,6 +13,6 @@ public class DockerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter printWriter = resp.getWriter();
-        printWriter.write("<h1>Web Servlet in docker file !!!</h1");
+        printWriter.write("<h1>Web Servlet in docker file !!!</h1>");
     }
 }
