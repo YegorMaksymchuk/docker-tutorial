@@ -5,7 +5,7 @@ MAINTAINER egormaksimchuk@gmail.com
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
 
-COPY ./target/docker-tomcat-war-example-1.0-SNAPSHOT.war $CATALINA_HOME/webapps/
+COPY ./target/docker-compose-example-1.0-SNAPSHOT.war $CATALINA_HOME/webapps/
 
 EXPOSE 8080
 
