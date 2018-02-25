@@ -18,7 +18,6 @@
     <modules>
         <module>docker-tomcat-war-example</module>
         <module>docker-tomcat-jar-example</module>
-        <module>docker-wildfly-war-example</module>
         <module>docker-compose-example</module>
     </modules>
 
