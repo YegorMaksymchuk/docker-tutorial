@@ -1,4 +1,4 @@
-package com.company;
+package com.company.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
