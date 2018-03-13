@@ -1,8 +1,14 @@
 version: '2'
 
 services:
-  docker-compose-example:
+  web:
     build:
       context: .
     ports:
       - "8080:8080"
+  db:
+    image: "mysql:latest"
+    ports:
+      - "3306:3306"
+    volumes:
+      -   "/src/main/resources/db"
