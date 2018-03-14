@@ -8,7 +8,7 @@ services:
       - MYSQL_DATABASE=restdemo
       - MYSQL_PASSWORD=root
   spring-boot-jpa-docker-webapp:
-    image: gradle-springboot
+    build: .
     depends_on:
       - docker-mysql
     ports:
